@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get 'main_features/home'
-
   get 'main_features/create'
-
   get 'main_features/results'
+  root 'main_features#home'
+  resources :polls
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

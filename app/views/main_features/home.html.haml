@@ -1,2 +1,8 @@
-%h1 MainFeatures#home
-%p Find me in app/views/main_features/home.html.erb
+
+%div{'ng-app' => 'feedback', 'ng-controller' => 'MainController'}  
+  %h1 Feedback
+  %p Group Decision Making Made Fun
+  = link_to "New Poll", new_poll_path, class: "btn btn-default"
+  %p {{test}}
+
+  %ng-view

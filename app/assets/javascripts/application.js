@@ -10,7 +10,17 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// Read about Angularjs-rails (https://github.com/hiravgandhi/angularjs-rails)
+// Search on https://rubygems.org/search?page=2&query=angular
+
+// Deprecated //= require turbolinks
+
+
+
+//= require angular
+//= require angular-route
+//= require angular-rails-templates
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+
 //= require_tree .
